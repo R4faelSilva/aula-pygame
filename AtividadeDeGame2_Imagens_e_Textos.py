@@ -43,6 +43,7 @@ pygame.draw.rect(janela, ROXO, (20,20,60,40),0) # ((Esquerda, Topo, Largura, Alt
 pygame.draw.arc(janela, AMARELO, (250,75,250,125), PI / 2, 3 * PI, 2) # (Janela, Cor, Coordenadas (Esquerda, Topo, Largura, Altura), Ângulo inicial, Ângulo final, Largura da Linha)
 pygame.draw.arc(janela, CIANO, (250,75,250,125), - PI / 2, 3 / PI, 2)
 pygame.display.update()
+
 deve_continuar = True
 
 while deve_continuar:
